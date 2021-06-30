@@ -1,3 +1,28 @@
+#main{
+  height: 100vh;
+  width: 100wh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  color: #27aedb;
+  text-align: center;
+  }
+  
+
+button{
+  color: #27aedb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-pink{
+background-color:pink;
+}
+
 .App {
   text-align: center;
   width: 100%;
@@ -11,8 +36,8 @@ body{
   background-color: #b1e9ff;
 }
 .main-container{
-  width: 25%;
-  height: 80vh;
+  width: 35%;
+  height: 100vh;
   border-radius: 24px;
   background-color: #f4f4f4;
   box-shadow: 3px 5px 23px 19px rgba(0,0,0,0.26);
@@ -43,10 +68,10 @@ input{
 
 }
 
-button{
-  min-height: 40px;
+.button{
+  min-height: 30px;
   width: 40px;
-  border-radius: 50%;
+  border-radius: 30%;
   border-color: transparent;
   background-color: #8566aa;
   color: #fff;
@@ -73,13 +98,13 @@ ol li{
 }
 
  .cross{
-  font-size: 10px;
+  font-size: 20px;
   /* font-weight: 500; */
   color: azure;
   margin-right:20px ;
-  padding: 5px;
+  padding: 6px;
   background-color: #a790c4;
-  border-radius: 48%;
+  border-radius: 30px;
  }  
  .cross:hover{
    color: azure;
@@ -87,50 +112,14 @@ ol li{
    /* font-size: 20px; */
    font-display: 20px;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modalClass {  
+  text-align: center;  
+  margin-top: 100px;  
+} 
+.saveTask{
+  font-size: large;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
